@@ -13,3 +13,11 @@ Alternatively, trimming the data to certain values.
 .isna() , .discribe() , .min() , .max()
 Visual exploration:
 ![Example Image](./jointplot.JPG)
+
+## Data Transformation
+* .fillna(0.01) to avoid zero
+* .replace(0, 0.01) replace zero for later log transformation, otherwise will et inf
+* replace negative values by 0.01 as well
+* round(data, 2)
+
+## Feature Ing.
