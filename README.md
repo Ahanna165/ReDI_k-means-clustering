@@ -31,27 +31,26 @@ Visual exploration:
 ![Example Image](./heatmap.JPG)
 
 Comparing Clusters / Customer Behavior based on Peak Revenue % vs Peak Order %
-![Example Image](./4clusters.JPG)
+![Example Image](./4cluster.JPG)
 
 Comparing Clusters based on Revenue Year vs Revenue Peak (absolute values)
-![Example Image](./4clusters2.JPG)
+![Example Image](./4cluster2.JPG)
 
 ## Imports and Dependencies
-
-    * pandas
-    * os
-    * re
-    * xlsxwriter
-    * openpyxl
-    * datetime, timedelta, date
-    * numpy
-    * webbrowser
-    * pathlib Path
-    * matplotlib ticker, pyplot
-    * seaborn
-    * hashlib
-    * sklearn.cluster KMeans
-    * sklearn.preprocessing StandardScaler
+* pandas
+* os
+* re
+* xlsxwriter
+* openpyxl
+* datetime, timedelta, date
+* numpy
+* webbrowser
+* pathlib Path
+* matplotlib ticker, pyplot
+* seaborn
+* hashlib
+* sklearn.cluster KMeans
+* sklearn.preprocessing StandardScaler
     
 ## Output file
 .xlsx file with 4 spreadsheets for each cluster.
