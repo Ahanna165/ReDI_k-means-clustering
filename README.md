@@ -10,4 +10,6 @@ Customer data anonymized by hashing: hashlib.sha256(str(customer).encode()).hexd
 Alternatively, trimming the data to certain values.
 
 ## Data Exploraction
-* .isna() , .discribe() , .min() , .max()
+.isna() , .discribe() , .min() , .max()
+Visual exploration:
+![Example Image](./jointplot.JPG)
